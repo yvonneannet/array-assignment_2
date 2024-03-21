@@ -54,6 +54,35 @@ border-radius: 15px;
          
     }
 
+    #list1{
+        font-size: medium;
+        list-style-image: ;
+    }
+
+
+    #get-st{
+        color: white;
+        background-color: blue;
+        padding: 10px;
+        border: none;
+        border-radius: 10px 10px;
+        margin-top: 9%;
+        
+    }
+    #search{
+        width: 400px;
+    }
+    #general{
+        width: 400px;
+    }
+
+    #inform{
+        width: 400px;
+    }
+    #people{
+        font-size: xx-large;
+    }
+
     #integration{
         margin-top: 2%;
     }
@@ -64,8 +93,15 @@ border-radius: 15px;
         font-weight: bold;
         background-color: rgb(234, 180, 81);
         border-radius: 7px;
+        margin-bottom: 10%;
     }
 
+#blog{
+    font-size: xx-large;
+}
+#button{
+    padding: 10px 10px;
+}
 
     .blog-highlights
 {
@@ -109,7 +145,7 @@ border-radius: 15px;
     color: white;
 }
 .all{
-    margin-left: 200px;
+    margin-left: 110px;
 }
 
 #private{
