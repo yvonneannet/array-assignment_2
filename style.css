@@ -75,7 +75,7 @@ border-radius: 15px;
 
     #list1{
         font-size: medium;
-        list-style-image: ;
+       
     }
 
     #powerful{
@@ -173,6 +173,7 @@ border-radius: 15px;
 #private{
     background-color:#003E47;
     display: flex;
+
 }
 
 .encrypted{
@@ -190,7 +191,7 @@ border-radius: 15px;
 }
 #stealth-advantage{
     text-align: center;
-    font-size:200em;
+    font-size:2.6em;
     font-weight: bold;
     margin-block-start: 8%;
     margin-block-end: 8%;
@@ -282,7 +283,7 @@ border-radius: 15px;
 
     #phone1{
         margin-inline-end: 5px; 
-        width: 10px;
+        width:5px
      }
      
      #get{
@@ -312,7 +313,7 @@ border-radius: 15px;
      
      #text2{
      
-         font-size: ;
+         font-size:3em ;
          font-weight: bolder;
          color: white;}
          
@@ -320,8 +321,8 @@ border-radius: 15px;
          #expert-people{
              display: flex;
              justify-content: space-evenly;
-             margin-block-start: 2%;
-             margin-block-end: 6%
+             /* margin-block-start: 2%;
+             margin-block-end: 6% */
          }
          #seamless{
              display: flex;
@@ -388,8 +389,11 @@ border-radius: 15px;
              display: wrap;
             justify-content: space-evenly;
              margin-block-start: 2%;
+             width: fit-content;
+             flex-direction: column
          }
      
+
      #text3{
         margin-left: ;
         justify-content: space-evenly;
@@ -397,7 +401,7 @@ border-radius: 15px;
      }
      
      .container{
-        /* margin-left: 10%; */
+        
      }
      
      #topnav{
@@ -437,7 +441,7 @@ border-radius: 15px;
          border: none;
      }
      #stealth-advantage{
-        font-size: 2.7em;
+        font-size: 2em;
          text-align: center;
          font-weight: bold;
          margin-top: 1%;
@@ -499,18 +503,45 @@ border-radius: 15px;
          padding: 10px 0px 0px 0px;
          height: 10px;
 
-         /* margin-right: 10%;
-         margin-left: 10%;
-         border-radius: 35px;
-        
-         margin-top: 9%;
-         margin-bottom: 6%; */
      }
      
      #list3{
          margin-top: 5px;
          display: wrap;
          flex-direction: column;
-         gap: 10px;
+         
      }
+     #screen{
+        width: 4px;
+     }
+   
+
+    #search{
+        width: 5px;
+
     }
+
+    #general{
+        width: 5px;
+    }
+
+    #inform{
+        width: 5px;
+    }
+
+    #private{
+        background-color:#003E47;
+        display: wrap;
+        inline-size: fit-content;
+        flex-direction: column;
+    }
+    #figure{
+        width: 5px;
+        align-self: center;
+    }
+
+    #phone1{
+        width: 5px;
+        align-items: center;
+    }
+}
