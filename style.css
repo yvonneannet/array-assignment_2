@@ -5,13 +5,32 @@ body{
 }       
 
 #phone1{
-   margin-right: 10px; 
+   margin-inline-end: 10px; 
 }
 
-#get{
-    font-size: medium;
-     color: white;
-     margin-top: 1%;
+#gett{
+    font-size: 0.4em;
+     color:rgb(160, 180, 186);
+     font-weight: lighter;
+     margin-block-start: 1%;
+}
+
+#part{
+    font-size: 2.5em;
+    color: white;
+}
+#be{
+    font-size: 1.2em;
+    color:lightblue;
+    font-weight: lighter;
+}
+
+#job{
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color: rgb(85, 169, 197);
+    border-radius: 10px;
 }
 
 #button1{
@@ -35,7 +54,7 @@ border-radius: 15px;
 
 #text2{
 
-    font-size: xxx-large;
+    font-size: 3em;
     font-weight: bolder;
     color: white;}
     
@@ -43,8 +62,8 @@ border-radius: 15px;
     #expert-people{
         display: flex;
         justify-content: space-evenly;
-        margin-top: 9%;
-        margin-bottom: 6%
+        margin-block-start: 9%;
+        margin-block-end: 6%
     }
     #seamless{
         display: flex;
@@ -59,6 +78,10 @@ border-radius: 15px;
         list-style-image: ;
     }
 
+    #powerful{
+        font-size: 1.5em;
+             }     
+
 
     #get-st{
         color: white;
@@ -66,7 +89,7 @@ border-radius: 15px;
         padding: 10px;
         border: none;
         border-radius: 10px 10px;
-        margin-top: 9%;
+        margin-block-start: 9%;
         
     }
     #search{
@@ -79,12 +102,11 @@ border-radius: 15px;
     #inform{
         width: 400px;
     }
-    #people{
-        font-size: xx-large;
-    }
+    
+    
 
     #integration{
-        margin-top: 2%;
+        margin-block-start: 2%;
     }
 
     #explore-all{
@@ -93,11 +115,11 @@ border-radius: 15px;
         font-weight: bold;
         background-color: rgb(234, 180, 81);
         border-radius: 7px;
-        margin-bottom: 10%;
+        margin-block-end: 10%;
     }
 
 #blog{
-    font-size: xx-large;
+    font-size: 2em;
 }
 #button{
     padding: 10px 10px;
@@ -113,13 +135,13 @@ border-radius: 15px;
     .three-images{
         display: flex;
        justify-content: space-evenly;
-        margin-top: 4%;
+        margin-block-start: 4%;
     }
 
 #text3{
-   margin-left: ;
+   /* margin-inline-start: ; */
    justify-content: space-evenly;
-    margin-top: 5%;
+    margin-block-start: 5%;
 }
 
 .container{
@@ -134,7 +156,7 @@ border-radius: 15px;
 
 }
 #links1{
-  margin-left: 300px;
+  margin-inline-start: 300px;
 }
 #links a{
     /* margin-left: 200px; */
@@ -145,7 +167,7 @@ border-radius: 15px;
     color: white;
 }
 .all{
-    margin-left: 110px;
+    margin-inline-start: 110px;
 }
 
 #private{
@@ -154,11 +176,11 @@ border-radius: 15px;
 }
 
 .encrypted{
-    margin-top: 1%;
+    margin-block-start: 1%;
     display: flex;
     justify-content: space-evenly;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
 }
 
 
@@ -168,10 +190,10 @@ border-radius: 15px;
 }
 #stealth-advantage{
     text-align: center;
-    font-size:35px ;
+    font-size:200em;
     font-weight: bold;
-    margin-top: 8%;
-    margin-bottom: 8%;
+    margin-block-start: 8%;
+    margin-block-end: 8%;
 
 }
 
@@ -180,10 +202,14 @@ border-radius: 15px;
     gap: 600px;
 }
 
+#footer1{
+    background-color: #003E47;
+}
 .footer{
     display: flex;
-    gap: 30px;
     background-color: #003E46;
+    color: white;
+    justify-content: space-evenly;
    
 }
 
@@ -213,6 +239,9 @@ border-radius: 15px;
     justify-content: center;
 }
 
+#people{
+    font-size: 2.6em;}
+
 
 #icons{
     display: flex;
@@ -228,14 +257,260 @@ border-radius: 15px;
     margin-left: 10%;
     border-radius: 35px;
     padding: 140px 0px 0px 0px;
-    margin-top: 9%;
-    margin-bottom: 6%;
+    margin-block-start: 9%;
+    margin-block-end: 6%;
 }
 
 #list3{
-    margin-top: 10px;
+    margin-block-start: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
+
+@media all and (min-width:280px) and (max-width:1024){
+
+
+ 
+    body{
+        background-color: lightblue;
+        margin-left: 5px;
+        margin-inline-end: 5px;}
+    
+
+
+    #phone1{
+        margin-inline-end: 5px; 
+        width: 10px;
+     }
+     
+     #get{
+         font-size: medium;
+          color: white;
+          margin-top: 1%;
+     }
+     
+     #button1{
+     padding: 5px;
+     background-color: #3FB0CA;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     
+     }
+     
+     #button11{
+     padding: 5px;
+     border-color:#3FB0CA;
+     color:#3FB0CA;
+     background-color: #003E47;
+     border-radius: 5px;
+     
+     
+     }
+     
+     #text2{
+     
+         font-size: ;
+         font-weight: bolder;
+         color: white;}
+         
+     
+         #expert-people{
+             display: flex;
+             justify-content: space-evenly;
+             margin-block-start: 2%;
+             margin-block-end: 6%
+         }
+         #seamless{
+             display: flex;
+             flex-direction: column;
+            align-items: center;
+            background-color: #CCF5FF;
+              
+         }
+     
+         #list1{
+             font-size: medium;
+             list-style-image: ;
+         }
+     
+     
+         #get-st{
+             color: white;
+             background-color: blue;
+             padding: 5px;
+             border: none;
+             border-radius: 05px 5px;
+             margin-block-start: 2%;
+             
+         }
+         #search{
+             width: 10px;
+         }
+         #general{
+             width: 40px;
+         }
+     
+         #inform{
+             width: 40px;
+         }
+    
+         
+     
+         #integration{
+             margin-top: 2%;
+         }
+     
+         #explore-all{
+             border: none;
+             padding: 10px;
+             font-weight: bold;
+             background-color: rgb(234, 180, 81);
+             border-radius: 7px;
+             margin-block-end: 3%;
+         }
+     
+     
+     #button{
+         padding: 10px 10px;
+     }
+     
+         .blog-highlights
+     {
+     
+         display: wrap;
+         justify-content: space-evenly;
+     
+     }
+         .three-images{
+             display: wrap;
+            justify-content: space-evenly;
+             margin-block-start: 2%;
+         }
+     
+     #text3{
+        margin-left: ;
+        justify-content: space-evenly;
+         margin-block-start: 1%;
+     }
+     
+     .container{
+        /* margin-left: 10%; */
+     }
+     
+     #topnav{
+       
+         background-color: #014852;
+         border: #014852;
+         color: white;
+     
+     }
+     
+     
+     
+     #Stealth{
+         display: wrap;
+         color: white;
+     }
+     .all{
+         margin-left: 110px;
+     }
+     
+     #private{
+         background-color:#003E47;
+         display: wrap;
+     }
+     
+     .encrypted{
+         margin-top: 1%;
+         display: wrap;
+         justify-content: space-evenly;
+         margin-inline-start: 1%;
+         margin-inline-end: 1%;
+     }
+     
+     
+     
+     #app2{
+         border: none;
+     }
+     #stealth-advantage{
+        font-size: 2.7em;
+         text-align: center;
+         font-weight: bold;
+         margin-top: 1%;
+         margin-bottom: 1%;
+     
+     }
+     
+     #decode{
+         display: wrap;
+         gap: 20px;
+     }
+     
+     .footer{
+         display: wrap;
+         gap: 5px;
+         background-color: #003E46;
+        
+     }
+     
+     #list{
+         list-style: none;
+     }
+     
+     #topnav{
+         display: wrap;
+         gap: 80px;
+     }
+     
+     #button2{
+         padding: 5px;
+     
+         border-radius: 20px;
+             border-color: #3FB0CA;
+             width: 40%;
+         color: #3FB0CA;
+         background-color: white;
+     }
+     
+     
+     #links1{
+         display: wrap;
+         gap: 10px;
+         justify-content: center;
+     }
+     
+     
+     #icons{
+         display: wrap;
+         justify-content: space-evenly;
+         
+     }
+
+     
+     
+     .last-part{
+         display: wrap;
+         background-color: #003E47;
+         justify-content: space-evenly;
+         padding: 10px 0px 0px 0px;
+         height: 10px;
+
+         /* margin-right: 10%;
+         margin-left: 10%;
+         border-radius: 35px;
+        
+         margin-top: 9%;
+         margin-bottom: 6%; */
+     }
+     
+     #list3{
+         margin-top: 5px;
+         display: wrap;
+         flex-direction: column;
+         gap: 10px;
+     }
+    }
